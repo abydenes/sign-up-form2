@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'norsebold';
-  src: url('/abydenes/main/fonts/norse-bold-webfont.woff2') format('woff2'),
-       url('/abydenes/main/fonts/norse-bold-webfont.woff') format('woff');
+  src: url('./fonts/norse-bold-webfont.woff2') format('woff2'),
+       url('./fonts/norse-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -22,7 +22,7 @@ body {
 .left {
   width: 40vw;
   height: 100vh;
-  background-image: url(/abydenes/main/img/halie-west-25xggax4bSA-unsplash.jpg);
+  background-image: url(./img/halie-west-25xggax4bSA-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
