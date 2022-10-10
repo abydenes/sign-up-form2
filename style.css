@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'norsebold';
   src: url('./fonts/norse-bold-webfont.woff2') format('woff2'),
-       url('./fonts/norse-bold-webfont.woff') format('woff');
+    url('./fonts/norse-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 html,
@@ -66,7 +67,7 @@ a {
   background-color: rgb(250, 250, 250);
 }
 
-.right > div:first-child {
+.right>div:first-child {
   margin: 16vh 0vh 5vh 5vh;
 }
 
@@ -77,11 +78,14 @@ a {
   background-color: #fff;
 }
 
-.white-box > div {
+.white-box>div {
   margin-left: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.white-box > div > h2 {
+.white-box>div>h2 {
   padding-top: 2vh;
   margin-bottom: 2vh;
   font-size: 1.3rem;
@@ -131,8 +135,12 @@ label {
   margin-bottom: 3px;
 }
 
+.bottom {
+  margin-left: 5vh;
+}
+
 .bottom a {
-  color: #596D48 ;
+  color: #596D48;
   text-decoration: none;
 }
 
